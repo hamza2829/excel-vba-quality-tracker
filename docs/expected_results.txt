@@ -1,0 +1,14 @@
+Rows in CSV: 273
+Valid rows: 268
+Issues: 5
+  Missing LotID: 1
+  Measured value is not a number: 1
+  SpecMin is greater than SpecMax: 1
+  Invalid date: 1
+  Duplicate LotID and ProcessStep: 1
+Report (step, n, out of spec, yield %, mean, min, max):
+  Etch: 52, 0, 100.0, 50.115, 48.701, 51.814
+  Deposition: 53, 0, 100.0, 100.029, 96.851, 102.952
+  Lithography: 48, 0, 100.0, 1.009, 0.94, 1.072
+  Implant: 54, 0, 100.0, 199.937, 195.957, 203.856
+  Anneal: 61, 5, 91.8, 1000.544, 977.71, 1026.722
